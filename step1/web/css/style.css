@@ -1,0 +1,299 @@
+html {
+    background-color:#2B2B2B;
+    background-repeat : repeat;
+}
+
+body {
+    margin-top:15px;
+    margin-bottom:15px;
+    font-family:Arial,sans-serif;
+    font-size:10.5pt;
+}
+
+#site {
+    width:310px;
+    margin:auto;
+    background-color:#4c8bc9;
+    padding-bottom:3px;
+    border:3px solid white;
+    text-align: center;
+    -webkit-box-shadow: inset 0px 0px 85px rgba(0,0,0,0.4);
+    -moz-box-shadow:    inset 0px 0px 85px rgba(0,0,0,0.4);
+    box-shadow:         inset 0px 0px 85px rgba(0,0,0,0.4);
+    display: block;
+}
+
+#site>div.groupe_compartiment:FIRST-CHILD { 
+    margin-top: 15px;
+}
+
+ul, li {
+    margin:0;
+    padding:0;
+}
+
+img {
+    border : 0;
+}
+
+#stat {
+    border-top-right-radius : 20px;
+    border-top-left-radius : 20px;    
+    width: 230px;
+    margin : auto;
+    margin-top: 5px;
+    margin-bottom : 0;
+    border: 0;
+    border-color : white;
+    background: 0;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    opacity: 0.9;    
+}
+
+.inline_menu {
+    display: block;
+    padding:0px;
+    width : 100%;
+}
+
+.inline_menu li {
+    display: inline;
+    margin-left : 10px;
+    margin-right: 10px;
+    padding : 0;
+    text-align: center;
+}
+
+div.compartiment {
+    background-color: white;
+    margin:0px 2px;
+    padding:3px; 	
+    border : 1px solid #0F5499;
+}
+
+div.groupe_compartiment {
+    margin-top : 4px;
+}
+
+div.groupe_compartiment div.compartiment:FIRST-CHILD {
+    border-top-left-radius : 3px;
+    border-top-right-radius : 3px;
+}
+
+div.groupe_compartiment div.compartiment:LAST-CHILD {
+    border-bottom-left-radius : 3px;
+    border-bottom-right-radius : 3px;
+}
+
+div.groupe_compartiment div.compartiment:not(:LAST-CHILD) {
+    border-bottom: 0;
+}
+
+div.compatiment h1 {
+    background-color: white;
+}
+
+div.compatiment div.content {
+    background-color: white;
+    margin-top : 0px;
+    margin-top : 0px;
+}
+
+div.groupe_menu {
+    margin-top : 0;
+    margin-bottom: 3px;
+}
+
+table.compartiment {
+    width:300px;
+}
+
+h2 {
+    margin:0;
+    color:#3366CC;
+    padding:3px;
+    font-size:medium;
+    text-align:center;
+}
+
+p {
+    padding:3px;
+    margin:0;
+}
+
+form {
+    margin:0;
+}
+
+table {
+    width:100%;
+    margin:auto;
+    text-align:center;
+    border-collapse:collapse;
+    border-spacing:0px;
+}
+
+table td {
+    border:1px solid #0F5499;
+    padding:2px;
+    overflow:hidden;
+    max-width:273px;
+}
+
+table th, .compartiment h3 {
+    color:#3366CC;
+    font-size:medium;
+    margin: 0px;
+}
+
+table tr:FIRST-CHILD td:FIRST-CHILD, table tr:FIRST-CHILD th {
+    border-top-left-radius : 5px;
+}
+
+table tr:LAST-CHILD td:FIRST-CHILD {
+    border-bottom-left-radius : 5px;
+}
+
+table tr:FIRST-CHILD td:LAST-CHILD, table tr:FIRST-CHILD th {
+    border:0px solid #0F5499;
+    border-top-right-radius : 5px;
+    border : 0;
+}
+
+table tr:LAST-CHILD td:LAST-CHILD {
+    border:1px solid #0F5499;
+    border-bottom-right-radius : 5px;
+}
+
+table#menu_principal {
+    margin-top : 0px;
+}
+
+a {
+    color:rgba(60, 49, 17, 0.81);
+    text-decoration: none;	
+}
+
+a:hover {
+    color:#996633;
+}
+
+.error, div.error, .error_notif, div.error_notif {
+    background-color:#D7949A;
+    text-align:center;
+}
+
+.good, div.good, .good_notif, div.good_notif {
+    background-color:#CCFFCC;
+    text-align:center;
+}
+
+input[type="text"],input[type="number"], input[type="password"] {
+    width:80px;
+}
+
+input[type="text"].large , input[type="number"].large {
+    width:250px;
+}
+
+input[type="text"].date_time {
+    width:120px;
+}
+
+.txt {
+    text-align:justify;
+    word-wrap: break-word;
+}
+
+.right {
+    text-align:right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+textarea {
+    width:270px;
+    height:80px;
+    resize:vertical;
+}
+
+table th a, .compartiment h3 a {
+    font-size:small;
+    font-weight:normal;
+}
+
+.compartiment table {
+    margin : 0;
+}
+
+.compartiment table td {
+    border: 1px solid #0F5499;
+}
+.compartiment table tr:first-child td {
+    border-top: 0;
+}
+.compartiment table tr:last-child td {
+    border-bottom: 0;
+}
+
+.compartiment table tr td:first-child {
+    border-left: 0;
+}
+
+.compartiment table tr td:last-child {
+    border-right: 0;
+}
+
+.compartiment tr, .compartiment td {
+    border : 0;
+    margin: 0;
+}
+
+.compartiment td {
+    padding : 0;
+    padding-left : 2px;
+    padding-right : 2px;
+}
+
+div.menu td {
+    font-weight:  bold;
+    border: 1px solid white;
+}
+div.menu table tr:last-child td:last-child {
+    border: inherit;
+}
+div.menu {
+    padding : 0px
+}
+
+div.menu td.menu_item {
+    background-color : white;
+    padding : 1px;
+    padding-top:2px;
+    padding-bottom:2px;
+}
+
+div.menu td.menu_item:hover {
+    background-color : #ECF2F9;
+    color : black;
+}
+
+div.menu td.menu_item a {
+    display:block;
+}
+
+div.menu td.menu_item:hover a {
+    color : black;
+}
+
+.menu_top td {
+    width:25%;
+}
+
+table.no_border, table.no_border tr, table.no_border td, table.no_border tr:last-child td:last-child, table.no_border tr:last-child td:first-child, table.no_border tr:first-child td:last-child, table.no_border tr:first-child td:first-child {
+    border: 0;
+}

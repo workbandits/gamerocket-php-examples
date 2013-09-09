@@ -1,0 +1,34 @@
+{% extends "base.twig" %}
+
+{% block head %}
+    {{ parent() }}
+{% endblock %}
+
+{% block title %}Attack{% endblock %}
+
+{% block main %}
+<div class="groupe_compartiment">
+    <div class="compartiment">
+	<table>
+            <tbody>
+                <tr>
+                   <td><strong>Pseudo</strong></td>
+                   <td style="width:50px"><strong>Xp</strong></td>
+                   <td style="width:55px"><strong>Actions</strong></td>
+                </tr>
+                {% for player in app.players %}
+                    <tr>
+                        <td>{{ player.name }}</td>
+                        <td>{{ player.dynProp.xp }}</td>
+                        <td>
+                            <a href="/fight?opponent={{ player.id }}">
+                                Attack
+                            </a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

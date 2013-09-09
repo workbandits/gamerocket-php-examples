@@ -1,0 +1,16 @@
+/step0/nbproject/*
+/step0/vendor/*
+/step0/composer.lock
+/step0/composer.phar
+/step1/nbproject/*
+/step1/vendor/*
+/step1/composer.lock
+/step1/composer.phar
+/step2/nbproject/*
+/step2/vendor/*
+/step2/composer.lock
+/step2/composer.phar
+/step3/vendor/*
+/step3/nbproject/*
+/step3/composer.lock
+/step3/composer.phar
